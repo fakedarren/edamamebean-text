@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Edamame Bean - Text - Demo</title>
+    <style>
+        textarea, iframe {
+            border: 1px solid #CCC;
+            box-sizing: border-box;
+            height: 250px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class='toolbar'>
+        <a href='#' data-action='heading1'>Heading 1</a>
+        <a href='#' data-action='heading2'>Heading 2</a>
+        <a href='#' data-action='heading3'>Heading 3</a>
+        <a href='#' data-action='heading4'>Heading 4</a>
+        <a href='#' data-action='heading5'>Heading 5</a>
+        <a href='#' data-action='heading6'>Heading 6</a>
+        <a href='#' data-action='paragraph'>Paragraph</a>
+        <hr />
+        <a href='#' data-action='bold'>Bold</a>
+        <a href='#' data-action='italic'>Italic</a>
+        <hr />
+        <a href='#' data-action='unorderedlist'>Unordered List</a>
+        <a href='#' data-action='orderedlist'>Ordered List</a>
+        <hr />
+        <a href='#' data-action='undo'>Undo</a>
+        <a href='#' data-action='redo'>Redo</a>
+        <a href='#' data-action='link'>link</a>
+        <a href='#' data-action='viewsource'>View Source</a>
+    </div>
+    <textarea><h1>Test</h1><p>This is a test</p></textarea>
+    <script src="scripts/require.js" data-main="scripts/demo"></script>
+</body>
+</html>

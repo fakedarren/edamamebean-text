@@ -1,0 +1,5 @@
+{
+    "name": "edamamebean-text",
+    "description": "A text editing module for the Node CMS 'edamame'",
+    "version": "0.0.2"
+}
